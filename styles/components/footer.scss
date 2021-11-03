@@ -1,0 +1,130 @@
+.expand-button-footer {
+    padding: 0 10%;
+    height: 70px;
+    background-color: #E6E7E8;
+    display: flex;
+    align-items: center;
+}
+
+.references-footer {
+    font-size: 18px;
+    color: #00609C;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.expand-cta-footer {
+    height: 50px;
+    width: 50px;
+    background-color: #00609C;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    transition: transform 1s;
+    &:focus {
+        outline: none;
+    }
+
+    &.open {
+        transform: rotate(180deg);
+    }
+}
+
+
+footer {
+    height: 0;
+    display: none;
+    background-color: #00609C;
+    min-height: 400px;
+    padding: 0 10%;
+    justify-content: space-around;
+    transition: display 1s, height 1s;
+
+    &.open {
+        display: flex;
+        height: 100%;
+    }
+}
+
+.text-under-logo {
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-align: center;
+    color: white;
+}
+
+.logo-footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;;
+}
+
+.links-footer-container {
+    display: flex;
+}
+
+.list-footer {
+    display: flex;
+    align-items: end;
+    list-style: none;
+    color: #fff;
+
+    & li {
+        padding: 0 25px;
+        border-right: 1px solid white;
+        opacity: 0.5;
+
+    &:last-child {
+        border-right: none;
+    }
+    & a {
+        color: white;
+    }
+    }
+}
+
+
+.footer-right-container {
+    max-width: 200px;
+    color: white;
+    text-align: end;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15%;
+
+    & a {
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    footer {
+        flex-direction: column;
+    }
+
+    .links-footer-container {
+        justify-content: center;
+    }
+
+    .list-footer {
+        padding: 0;
+        align-items: center;
+        flex-direction: column;
+
+        li {
+            border-right: 0;
+        }
+    }
+
+    .footer-right-container {
+        padding-bottom: 10px;
+        max-width: 100%;
+        text-align: center;
+    }
+}

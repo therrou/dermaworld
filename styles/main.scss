@@ -1,0 +1,13 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif; 
+    height: 100%;
+}
+
+@import "components/navbar.scss";
+@import "components/hero-section.scss";
+@import "components/images.scss";
+@import "components/card.scss";
+@import "components/footer.scss";

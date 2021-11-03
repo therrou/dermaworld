@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Fonts & Boostrap -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/main.css">
+    <title>DermaWorld</title>
+</head>
+<body>
+  <div class='navbar-mobile'>
+    <div class='left'> </div>
+    <div class='center'><img class='logo-mobile' src="./assets/logo.svg" alt=""></div>
+    <div class='right' type="button" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"> 
+      <input type="checkbox" id="check">
+      <label class="menu" for="check">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </label></div>
+  </div>
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Menu</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>Bedingungen
+              <ul>
+                <li>TEST</li>
+                <li>TEST</li>
+                <li>TEST</li>
+                <li>TEST</li>
+                <li>TEST</li>
+              </ul>
+            </li>
+            <li>Behandlungen</li>
+            <li>Veranstaltungen</li>
+            <li>Werkzeuge</li>
+            <li>Forschung und Erkenntnisse</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+    <nav class="navbar navbar-top navbar-expand-lg navbar-light">
+        <div class="logo-container">
+            <a class="navbar-brand" href="#"><img src="/assets/logo.svg" alt="Dermaworld Logo"></a>
+            <span class='navbar-brand-subtitle'> By <b> LEO Pharma</b></span>
+        </div>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="SEARCH" aria-label="Search"> <span class="magn-glass"></span>
+          </form>
+      </nav>
+      
+      <nav role="navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> 
+        <ul class='navbar-1 collapse navbar-collapse' id="navbarNavDropdown">
+          <li class='navbar-1-link'><a href="#">Bedingungen</a>
+          <ul class="dropdown">
+            <li class='navbar-2-link'><a href="#">Adtralza</a>
+              <ul class='navbar-3'>
+                <li class='navbar-3-link'><a href="#">Overview</a></li>
+                <li class='navbar-3-link'><a href="#">Mode of Action</a></li>
+                <li class='navbar-3-link'><a href="#">Efficacy</a></li>
+                <li class='navbar-3-link'><a href="#">Quality of Life</a></li>
+                <li class='navbar-3-link'><a href="#">Safety</a></li>
+                <li class='navbar-3-link'><a href="#">Dosing</a></li>
+                <li class='navbar-3-link'><a href="#">News</a></li>
+                <li class='navbar-3-link'><a href="#">Technical Information</a></li>
+              </ul>
+            </li>
+            <li class='navbar-2-link'><a href="#">Diavonex</a>
+              <ul class='navbar-3'>
+                <li class='navbar-3-link'><a href="#">Overview</a></li>
+                <li class='navbar-3-link'><a href="#">Mode of Action</a></li>
+                <li class='navbar-3-link'><a href="#">Efficacy</a></li>
+                <li class='navbar-3-link'><a href="#">Quality of Life</a></li>
+                <li class='navbar-3-link'><a href="#">Safety</a></li>
+                <li class='navbar-3-link'><a href="#">Dosing</a></li>
+                <li class='navbar-3-link'><a href="#">News</a></li>
+                <li class='navbar-3-link'><a href="#">Technical Information</a></li>
+              </ul>
+            </li>
+            <li class='navbar-2-link'><a href="#">Diavobet</a>
+              <ul class='navbar-3'>
+                <li class='navbar-3-link'><a href="#">Overview</a></li>
+                <li class='navbar-3-link'><a href="#">Mode of Action</a></li>
+                <li class='navbar-3-link'><a href="#">Efficacy</a></li>
+                <li class='navbar-3-link'><a href="#">Quality of Life</a></li>
+                <li class='navbar-3-link'><a href="#">Safety</a></li>
+                <li class='navbar-3-link'><a href="#">Dosing</a></li>
+                <li class='navbar-3-link'><a href="#">News</a></li>
+                <li class='navbar-3-link'><a href="#">Technical Information</a></li>
+              </ul>
+            </li>
+            <li class='navbar-2-link'><a href="#">Enstilar</a>
+              <ul class='navbar-3'>
+                <li class='navbar-3-link'><a href="#">Overview</a></li>
+                <li class='navbar-3-link'><a href="#">Mode of Action</a></li>
+                <li class='navbar-3-link'><a href="#">Efficacy</a></li>
+                <li class='navbar-3-link'><a href="#">Quality of Life</a></li>
+                <li class='navbar-3-link'><a href="#">Safety</a></li>
+                <li class='navbar-3-link'><a href="#">Dosing</a></li>
+                <li class='navbar-3-link'><a href="#">News</a></li>
+                <li class='navbar-3-link'><a href="#">Technical Information</a></li>
+              </ul>
+            </li>
+            <li class='navbar-2-link'><a href="#">Fucidin</a>
+              <ul class='navbar-3'>
+                <li class='navbar-3-link'><a href="#">Overview</a></li>
+                <li class='navbar-3-link'><a href="#">Mode of Action</a></li>
+                <li class='navbar-3-link'><a href="#">Efficacy</a></li>
+                <li class='navbar-3-link'><a href="#">Quality of Life</a></li>
+                <li class='navbar-3-link'><a href="#">Safety</a></li>
+                <li class='navbar-3-link'><a href="#">Dosing</a></li>
+                <li class='navbar-3-link'><a href="#">News</a></li>
+                <li class='navbar-3-link'><a href="#">Technical Information</a></li>
+              </ul>
+            </li>
+            <li class='navbar-2-link'><a href="#">Kyntheum</a>
+              <ul class='navbar-3'>
+                <li class='navbar-3-link'><a href="#">Overview</a></li>
+                <li class='navbar-3-link'><a href="#">Mode of Action</a></li>
+                <li class='navbar-3-link'><a href="#">Efficacy</a></li>
+                <li class='navbar-3-link'><a href="#">Quality of Life</a></li>
+                <li class='navbar-3-link'><a href="#">Safety</a></li>
+                <li class='navbar-3-link'><a href="#">Dosing</a></li>
+                <li class='navbar-3-link'><a href="#">News</a></li>
+                <li class='navbar-3-link'><a href="#">Technical Information</a></li>
+              </ul>
+            </li>
+            <li class='navbar-2-link'><a href="#">Protopic</a></li>
+          </ul>
+          </li>
+          <li class='navbar-1-link'><a href="#">Behandlungen</a>
+            <ul class="dropdown">
+              <li class='navbar-2-link'><a href="#">Protopic</a></li>
+              <li class='navbar-2-link'><a href="#">Diavobet</a></li>
+              <li class='navbar-2-link'><a href="#">Enstilar</a></li>
+              <li class='navbar-2-link'><a href="#">Fucidin</a></li>
+              <li class='navbar-2-link'><a href="#">Diavonex</a></li>
+              <li class='navbar-2-link'><a href="#">Kyntheum</a></li>
+              <li class='navbar-2-link'><a href="#">Adtralza</a></li>
+          </ul>
+          </li>
+          <li class='navbar-1-link'><a href="#">Veranstaltungen</a>
+            <ul class="dropdown">
+              <li class='navbar-2-link'><a href="#">Adtralza</a></li>
+              <li class='navbar-2-link'><a href="#">Diavonex</a></li>
+              <li class='navbar-2-link'><a href="#">Kyntheum</a></li>
+              <li class='navbar-2-link'><a href="#">Protopic</a></li>
+            </ul>
+          </li>
+          <li class='navbar-1-link'><a href="#">Werkzeuge</a>
+            <ul class="dropdown">
+              <li class='navbar-2-link'><a href="#">Protopic</a></li>
+              <li class='navbar-2-link'><a href="#">Kyntheum</a></li>
+              <li class='navbar-2-link'><a href="#">Adtralza</a></li>
+            </ul>
+          </li>
+          <li class='navbar-1-link'><a href="#">Forschung und Erkenntnisse</a>
+            <ul class="dropdown">
+              <li class='navbar-2-link'><a href="#">Kyntheum</a></li>
+              <li class='navbar-2-link'><a href="#">Adtralza</a></li>
+              <li class='navbar-2-link'><a href="#">Protopic</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    <section class='hero-section background-image left'>
+      <img src="./assets/AdtralazaLogo.png" alt="Adtralaza Logo">
+      <div class="text-container-left">
+        <h2 class='headline-section'>Adtralza® is a new treatment for adult patients with moderate-to-severe atopic dermatitis (eczema) who are candidates for systemic therapy.</h2>
+      </div>
+    </section>
+
+    <section class='hero-section-2'>
+      <img src="./assets/adtralazaImg.png" alt="Adtralaza box image">
+      <div class="text-container-right">
+        <h2 class='headline-section-2'>It is the first and only biologic developed to specifically neutralize IL-13, a key driver of atopic dermatitis signs and symptoms(1,2).</h2>
+        <a class='link' href="#"> Learn more about how Adtralza® works and how to use it in treatment.</a>
+      </div>
+    </section>
+
+    <section class='hero-section-3'>
+     <div class="card-stats-container">
+       <div class="card"> <span class='circle-card-stat'> <b>9</b> <small> out of 10 </small></span>
+          <h3 class='title-card-stat'>Long term sustained improvement</h3>
+          <p class='description-card-stat'> 9 out of 10 respondents experienced sustained disease control in clinical trials 10, providing sustained improvements in the burden of disease(1,2, 1, 8*†‡). </p>
+          <a class='link-card-stat' href="#">See efficacy and trial data</a>
+      </div>
+
+      <div class="card"> <span class='circle-card-stat'> <img src="./assets/heartHand.png" alt=""> </span>
+        <h3 class='title-card-stat'>Improvements in the burden of disease</h3>
+        <p class='description-card-stat'> Patients in clinical trials saw an improvement in Quality of Life with early symptom relief and sustained improvements in burden of disease from week 16 to 32(12,13). </p>
+        <a class='link-card-stat' href="#">See efficacy and trial data</a>
+    </div>
+
+      <div class="card"> <span class='circle-card-stat'> <img src="./assets/safeHand.png" alt=""> </span>
+        <h3 class='title-card-stat'>Good safety profile</h3>
+        <p class='description-card-stat'> The overall frequency and severity of adverse events with Adtralza® were comparable to placebo at 16 weeks* and 52 weeks(19).</p>
+        <a class='link-card-stat' href="#">See efficacy and trial data</a>
+      </div>
+     </div>
+    </section>
+
+    <section class='hero-section-2'>
+      <div class="text-container-left">
+        <h2 class='headline-section-2'>Adtralza® neutralizes IL-13, a key driver of Atopic Dermatitis signs and symptoms.</h2>
+        <p>By specifically targeting the IL-13 cytokine, Adtralza® inhibits the interaction with type II receptors and prevents IL-13-induced inflammatory responses in the skin(1,2).
+
+          Adtralza® selectively modulates the dysregulated immune system by(1): 
+        </p>
+        <ul>
+          <li>Reducing markers of skin inflammation </li>
+          <li>Improving markers of skin barrier integrity </li>
+          <li>Reducing epidermal thickness</li>
+        </ul>
+        <button class="btn-watch-video"> Watch the video </button>
+      </div>
+      <div class='vimeo-iframe' style="padding:56.25% 0 0 0;position:relative; width: 100%;"><iframe src="https://player.vimeo.com/video/170440115?h=58dfaca503&color=ff0048&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%; padding: 50px;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+    </section>
+
+    <section class='hero-section-4'>
+      <h1 class='section-4-title'>Clinical tools - at a glance</h1>
+      <div class="cards-container">
+        <div class="card" style="width: 50%;">
+          <img src="./assets/patient1.png" class="card-img-top" alt="Nurse image">
+          <div class="card-body">
+            <h5 class="card-title">Dosing guide</h5>
+            <p class="card-text">Adtralza® has a straightforward dosing regimen, with 150 mg prefilled syringes(1).</p>
+            <a href="#" class="link-card-stat">Learn more about application and dosing</a>
+          </div>
+        </div>
+  
+        <div class="card" style="width: 50%;">
+          <img src="./assets/patien2.png" class="card-img-top" alt="Self vaccination">
+          <div class="card-body">
+            <h5 class="card-title">Patient injection made simplee</h5>
+            <p class="card-text">This step by step video guide shows the patient how to self inject using the two syringes that come in the Adtralza® carton.  </p>
+            <a href="#" class="link-card-stat">Watch the video</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class='hero-section-5'>
+      <div style='align-self: center;'>
+        <h2 class='headline-section-5'>KOL Videos - get expert insights here</h2>
+        <h3 class='subtitle-section'>See what Key opinion leaders have to say about their experiences with Adtralza® </h3>
+      </div>
+      <div class='placeholder'></div>
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-6">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/DWuAn6C8Mfc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="col-md-6">
+            <div class="card-body video-body">
+              <h5 class="card-title video-title">Radiohead - In Rainbows</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted"> One of the greatest performance</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-6">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/nrxWiU_v9Qs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>          </div>
+          <div class="col-md-6">
+            <div class="card-body video-body">
+              <h5 class="card-title video-title">Radiohead - Follow me Around</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted"> New Song </small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-6">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/veCnQve0rqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>          </div>
+          <div class="col-md-6">
+            <div class="card-body video-body">
+              <h5 class="card-title video-title">Chet Faker - Boiler Room</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Awesome live performance</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-6">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/EUugI90I8Lo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>          </div>
+          <div class="col-md-6">
+            <div class="card-body video-body">
+              <h5 class="card-title video-title">Thom Yorke </h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">...</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class='expand-button-footer'> <button class='expand-cta-footer'>V</button> <p class='references-footer'> References </p></div>
+    <footer>
+      <div class='logo-footer-container'> 
+        <img src="./assets/lionLogo..png" alt="">
+        <h1 class='text-under-logo'> L E O </h1>
+      </div>
+      <div class="links-footer-container">
+        <ul class='list-footer'>
+          <li><a href=""> Contact </a> </li>
+          <li><a href=""> Imprint </a> </li>
+          <li><a href=""> Conditions </a> </li>
+          <li><a href=""> Terms of use </a> </li>
+          <li><a href=""> Privacy </a> </li>
+          <li><a href=""> Cookie content </a> </li>
+        </ul>
+      </div>
+
+      <div class="footer-right-container">
+        <p>© Copyright LEO Pharma 2020
+          LEO and the LEO Lion Design
+          are registered trademarks
+          of LEO Pharma
+          All rights reserved</p>
+        <a href="">LEO Pharma corporate website</a>
+      </div>
+
+    </footer>
+    
+    <script src='./scripts/common.js' ></script>
+</body>
+</html>
+
+
+
+   
+
+
+
+   
